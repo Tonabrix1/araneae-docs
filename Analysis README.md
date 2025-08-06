@@ -31,7 +31,7 @@ The `hits` parameter is a dictionary of hits the tool has recieved in the format
 
 # Example
 
-Below is an example of a spider script `analysis/endpoints.py`:
+Below is an example of an analysis module `analysis/endpoints.py`:
 
 ```py
 from tools.utilities import add_analysis_cli_arg, join, remove_canary, Fore, BASE_PATH
